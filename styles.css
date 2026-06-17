@@ -1197,13 +1197,17 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  gap: 8px;
+  padding: 0 24px;
   height: 60px;
   background-color: #25d366;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 30px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   z-index: 1000;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -1215,8 +1219,8 @@ select {
 }
 
 .whatsapp-float svg {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   fill: currentColor;
 }
 
@@ -1224,12 +1228,13 @@ select {
   .whatsapp-float {
     bottom: 16px;
     right: 16px;
-    width: 52px;
     height: 52px;
+    padding: 0 18px;
+    font-size: 1rem;
   }
   
   .whatsapp-float svg {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
